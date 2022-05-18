@@ -1,0 +1,49 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "name": "magento-svelte",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@layer0/cli": "^4.13.10",
+    "@layer0/core": "^4.13.10",
+    "@layer0/devtools": "^4.13.10",
+    "@layer0/prefetch": "^4.13.10",
+    "@layer0/svelte": "^4.13.10",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-node": "^1.0.0-next.73",
+    "@sveltejs/kit": "next",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "postcss": "^8.4.8",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "svelte": "^3.46.0",
+    "tailwindcss": "^3.0.23"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/fira-mono": "^4.5.0",
+    "@layer0/sveltekit": "^4.13.10",
+    "@lukeed/uuid": "^2.0.0",
+    "@splidejs/svelte-splide": "^0.2.1",
+    "color-convert": "^2.0.1",
+    "cookie": "^0.4.1",
+    "process": "^0.11.10",
+    "register-service-worker": "^1.7.2",
+    "svelte-preprocess": "^4.10.6",
+    "workbox-webpack-plugin": "^6.5.3"
+  }
+}
